@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/classes-c35984b37a8d223225abcc978713087fdb001a4c.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/classes-ed94dfab9b24c14e9f0c9c40dce271e5b03af54e.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/classes-9197f5e791c24c6be67a94ca882ae60c7f338ed3.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/okio-1.8.0-b6e39c371d5e49fcf869186874be96bdcc6f698b.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2b8a01ad9da5d26d0067894c22e87597bca2c500">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/classes-6f04cf7820677891335e46ec041b49814446ed6a.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.3/1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14/jackson-core-2.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a0113da2cab5f4c216b4e5e7c1dbfaa67087e14">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.3-21904d41de2b167b36697ab149705abb3a292e57.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-66d1a90618f07d1a4b7966e6307625d86c6e6e19.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/classes-5951785e4df649cac676fae22b8091df6460a41c.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-5c0dcf7bd109e72f881d0d270c944f873b3a0e22.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1-fedc06299b7993fff5dbf14844273959ef9e66db.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.2.0/1ea229d6984444c8c58b8e97ba4c8429d9d135b3/okhttp-ws-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ea229d6984444c8c58b8e97ba4c8429d9d135b3">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.2.0-e9528105c7d85fea4bb44ac3a0f02d43df392938.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ca63c521b5745ae9a09629d7ca67ff6bc2a967fe">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/classes-20affbfc7bceb10d3335e85ddc631f6ade3efa0e.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/classes-740eee90d7dc7316060e53e19893f421cec00a9f.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.29.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3d3b981aa5d57d8b9104a719b8879abcbbd7a91e">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/classes-f8b7077f4c480f72137d0cb08139cfef75b36ec9.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1-fc33c14075f6b7726794753f39a984501e149dd3.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/classes-933dcbd881a0bf1cbf31960a61dead984586ccf6.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.2.0/6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c/okhttp-urlconnection-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6f8a4b1435c9e0a6f9c5fe4a1be46627b848fd0c">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.2.0-fc7c718992ec374d4ed58c31142e678e89b2f8fa.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.29.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="df2d16b25be8683063ce05d15192b62dce3f4890">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-5466ea86c534f855bf24a9e7390e637b184e8e51.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-90cd5610cecf23b362e19382850c0b51665b8178.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/react-native-date-list/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1137942adeb03984c1311b662363dd38fc238fd3">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/classes-306a71d2e5a3672daeb42279071602030ee92319.jar" />
+    </item>
+    <item
+        jar="/home/eduardo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/eduardo/react-native-date-list/android/app/build/intermediates/pre-dexed/debug/okhttp-3.2.0-847ae31bb1ce7164340cd4a08dfd4adc04046fbd.jar" />
+    </item>
+
+</items>
