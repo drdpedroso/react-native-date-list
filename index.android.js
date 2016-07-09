@@ -1,32 +1,3 @@
-// 'use strict';
-//
-// import React, { Component } from 'react';
-// import {
-//   AppRegistry,
-//   Image,
-//   ListView,
-//   StyleSheet,
-//   Text,
-//   TouchableOpacity,
-//   View
-// } from 'react-native';
-//
-
-//
-// class DateList extends React.Component {
-//   render() {
-//     return React.createElement(React.Text, {style: styles.text}, "Hello World!");
-//   }
-// }
-//
-//
-// AppRegistry.registerComponent('DateList', () => DateList);
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -35,57 +6,50 @@ import {
   StyleSheet,
   Text,
   Navigator,
+  TouchableOpacity,
   TouchableHighlight,
   View
 } from 'react-native';
 
 
-var MOCKED_DATA = [
-  {title: 'Title', date: '6:45 AM', description: 'Descrição e tals'},
-  {title: 'Title2', date: '7:45 AM', description: 'Descrição e tals2'},
-  {title: 'Title3', date: '8:15 AM', description: 'Descrição e tals3'},
-  {title: 'Title4', date: '9:00 AM', description: 'Descrição e tals4'},
-  {title: 'Title5', date: '9:45 AM', description: 'Descrição e tals5'},
-  {title: 'Title6', date: '1:15 PM', description: 'Descrição e tals7'},
-];
+var First = require('./app/First');
+var Second = require('./app/Second');
+var Header = require('./app/Header');
 
-class DateDetailsList extends Component {
-  render() {
-    return (
-      <View >
-        <Text style={styles.header}>{this.props.title}</Text>
-      </View>
-    );
-  }
-}
+
+
+
 
 class DatesListView extends Component {
-  // Initialize the hardcoded data
-  constructor(props) {
-    super(props);
-    const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-    this.state = {
-      dataSource: ds.cloneWithRows(MOCKED_DATA)
-    };
-  }
-
   render() {
     return (
       <View>
-        <DateDetailsList title="Group Fitness"/>
-        <View style={{paddingTop: 22}}>
-          <ListView
-            dataSource={this.state.dataSource}
-            renderRow={this.renderDate}
+        <Header />
+        
+        <Navigator
+          initialRoute={{
+            id: 'First'
+          }}
+          renderScene={this.navigatorRenderScene}
           />
-        </View>
-      </View>
+       </View>
     );
   }
 
+  navigatorRenderScene(route, navigator) {
+    _navigator = navigator;
+    switch (route.id) {
+      case 'First':
+        return (<First navigator={navigator} title="first" />);
+      case 'Second':
+        return (<Second navigator={navigator} title="second" />);
+    }
+  }
+
+
  renderDate(date) {
    return (
-       <TouchableHighlight>
+       <TouchableOpacity>
          <View style={styles.container}>
                  <Text style={styles.date}>{date.date}</Text>
             <View style={styles.rightContainer}>
@@ -93,7 +57,7 @@ class DatesListView extends Component {
                  <Text style={styles.description}>{date.description}</Text>
              </View>
          </View>
-       </TouchableHighlight>
+       </TouchableOpacity>
    );
  }
 }
@@ -104,15 +68,17 @@ var styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'flex-start',
     marginBottom: 10,
+    backgroundColor: '#f2f2f2',
   },
   rightContainer: {
+    marginRight: 30,
     flex: 1,
   },
   header: {
     fontSize: 25,
     color: '#FFFFFF',
     backgroundColor: '#FA001D',
-    height: 100,
+    height: 90,
     textAlignVertical: 'center',
     textAlign: 'center',
   },
@@ -124,9 +90,6 @@ var styles = StyleSheet.create({
   description:{
     fontSize: 12,
     marginBottom: 5,
-    textAlign: 'center',
-  },
-  year: {
     textAlign: 'center',
   },
   date: {
