@@ -12,54 +12,34 @@ import {
 } from 'react-native';
 
 
-var First = require('./app/First');
+var Home = require('./app/Home');
 var Second = require('./app/Second');
-var Header = require('./app/Header');
-
-
-
 
 
 class DatesListView extends Component {
   render() {
     return (
-      <View>
-        <Header />
-        
-        <Navigator
-          initialRoute={{
-            id: 'First'
-          }}
-          renderScene={this.navigatorRenderScene}
-          />
-       </View>
+      <Navigator
+        style={styles.container}
+        initialRoute={{
+          id: 'Home'
+        }}
+        renderScene={this.navigatorRenderScene}
+        configureScene={(route, routeStack) =>
+          Navigator.SceneConfigs.FloatFromBottom}
+        />
     );
   }
 
   navigatorRenderScene(route, navigator) {
     _navigator = navigator;
     switch (route.id) {
-      case 'First':
-        return (<First navigator={navigator} title="first" />);
+      case 'Home':
+        return (<Home navigator={navigator} title="home" />);
       case 'Second':
         return (<Second navigator={navigator} title="second" />);
     }
   }
-
-
- renderDate(date) {
-   return (
-       <TouchableOpacity>
-         <View style={styles.container}>
-                 <Text style={styles.date}>{date.date}</Text>
-            <View style={styles.rightContainer}>
-                 <Text style={styles.title}>{date.title}</Text>
-                 <Text style={styles.description}>{date.description}</Text>
-             </View>
-         </View>
-       </TouchableOpacity>
-   );
- }
 }
 
 var styles = StyleSheet.create({
@@ -69,36 +49,6 @@ var styles = StyleSheet.create({
     justifyContent: 'flex-start',
     marginBottom: 10,
     backgroundColor: '#f2f2f2',
-  },
-  rightContainer: {
-    marginRight: 30,
-    flex: 1,
-  },
-  header: {
-    fontSize: 25,
-    color: '#FFFFFF',
-    backgroundColor: '#FA001D',
-    height: 90,
-    textAlignVertical: 'center',
-    textAlign: 'center',
-  },
-  title: {
-    marginBottom: 5,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-  description:{
-    fontSize: 12,
-    marginBottom: 5,
-    textAlign: 'center',
-  },
-  date: {
-    marginLeft:10,
-    color: '#FA001D',
-  },
-  listView: {
-    paddingTop: 20,
-    backgroundColor: '#F5FCFF',
   },
 });
 
